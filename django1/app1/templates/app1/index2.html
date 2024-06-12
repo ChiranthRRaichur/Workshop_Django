@@ -1,0 +1,15 @@
+<html>
+ <body>
+        <br>
+            <h1><center>The factorial of the numbers are:</center></h1>
+            <br>
+
+            <ul>
+                {% for i in factarray %}
+                    <h3>The factorial of a number {{forloop.counter}} is {{ i }} 
+                        <hr>
+                    </h3>
+                {% endfor %}
+            </ul>
+        </body>
+</html>
